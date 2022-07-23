@@ -1,0 +1,39 @@
+Last login: Fri Jul 22 18:02:21 on ttys000
+Edens-MacBook-Air:~ Eden$ git clone https://github.com/eden-byte/coursera-test.git
+Cloning into 'coursera-test'...
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 9 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (9/9), done.
+Edens-MacBook-Air:~ Eden$ ls
+Applications	Downloads	Music		coursera-test
+Desktop		Library		Pictures	git_practice
+Documents	Movies		Public		test_site
+Edens-MacBook-Air:~ Eden$ cd cousera-test/
+-bash: cd: cousera-test/: No such file or directory
+Edens-MacBook-Air:~ Eden$ ls
+Applications	Downloads	Music		coursera-test
+Desktop		Library		Pictures	git_practice
+Documents	Movies		Public		test_site
+Edens-MacBook-Air:~ Eden$ cd  coursera-test/
+Edens-MacBook-Air:coursera-test Eden$ ls
+README.md	docs
+Edens-MacBook-Air:coursera-test Eden$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+Edens-MacBook-Air:coursera-test Eden$ git checkout gh-pages
+error: pathspec 'gh-pages' did not match any file(s) known to git
+Edens-MacBook-Air:coursera-test Eden$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+Edens-MacBook-Air:coursera-test Eden$ ls
+README.md	docs
+Edens-MacBook-Air:coursera-test Eden$ mkdir site
+Edens-MacBook-Air:coursera-test Eden$ cd site/
+Edens-MacBook-Air:site Eden$ ls
+Edens-MacBook-Air:site Eden$ 
